@@ -1,0 +1,11 @@
+{
+    "name": "Standard Go Test for Hyeoncheon",
+    "description": "The standard testing workflow for Go packages.",
+    "iconName": "go",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "go.mod"
+    ]
+}

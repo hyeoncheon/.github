@@ -1,0 +1,38 @@
+name: 🐞 Bug Report
+description: Create a report to help us improve
+title: "bug: "
+labels: ["bug"]
+assignees: ["sio4"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to file this bug report.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug
+      description: What happened and what was your expectation instead
+    validations:
+      required: true
+      
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: To Reproduce
+      description: Steps to reproduce the behavior.
+      placeholder: |
+        including
+        1. what was your installation method...
+        2. what was your command and command-line arguments...
+        3. what you see...
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: |
+        Please provide any additional information such as logs, environment including OS version, screenshots,...
