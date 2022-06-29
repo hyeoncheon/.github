@@ -8,5 +8,5 @@ on:
 jobs:
   call-standard-test:
     name: Standard Test
-    uses: hyeoncheon/.github/.github/workflows/go-test.yml@main
+    uses: hyeoncheon/.github/.github/workflows/go-test.yml@latest
     secrets: inherit
